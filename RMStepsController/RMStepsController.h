@@ -111,5 +111,6 @@
  @param newInsets The new edge insets.
  */
 - (void)adaptToEdgeInsets:(UIEdgeInsets)newInsets;
-
+- (void)viewWillBeAppeared;
+- (void)viewDidShowed;
 @end
